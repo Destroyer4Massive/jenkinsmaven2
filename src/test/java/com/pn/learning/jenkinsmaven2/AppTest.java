@@ -26,4 +26,5 @@ public class AppTest
     	App a = new App();
     	assertEquals(10, a.sum(5, 5));
     }
+
 }
