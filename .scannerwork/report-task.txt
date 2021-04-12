@@ -1,0 +1,6 @@
+projectKey=jenkinsmaven2
+serverUrl=http://localhost:9000
+serverVersion=7.9.6.41879
+dashboardUrl=http://localhost:9000/dashboard?id=jenkinsmaven2
+ceTaskId=AXipd6vmqeG82gpKl-vz
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXipd6vmqeG82gpKl-vz
