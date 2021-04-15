@@ -16,5 +16,12 @@ pipeline {
                bat "mvn package"
            }
         }
+        stage('Consolidate Results'){
+            steps{
+                input("Do you capture results?")
+                junit '**/target/surefire-reports/TEST-*.xml'
+                archive 'target/*.jar'
+            }
+        }
     }
 }
